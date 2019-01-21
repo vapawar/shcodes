@@ -1,0 +1,27 @@
+unix special vars
+
+$0	filename of current script
+$n	n is arg_no of cmd args
+$#	total no of arrgs suplied to script
+$*	all cmd_args as single string
+$@	all cmd_args as tokens
+$?	exit status
+$$	shows PID of current shell
+$!	process no of last background process
+
+
+file test operators
+-b	checks if block special file
+-c	checks if chars special file
+-d	checks if directory
+-f	checks is ordinary file
+-g	checks group id set or not for file
+-k	checks sticky bit set or not for file
+-p	checks if named pipe or file
+-t	checks id FileDescriptor is open
+-u	checks if userid is set or not
+-r	checks if file is readable
+-w	checks if file is writable
+-x	checks if file is executable
+-s	checks if file size is greater than zero
+-e	checks if file exists
